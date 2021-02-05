@@ -287,7 +287,7 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [],
-            "mid": 1600789633594,
+            "mid": 1610877018642,
             "name": "Primitives et dérivées",
             "notes": [
                 {
@@ -830,7 +830,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "DérivééDeArccos",
+                        "DérivéeDeArccos",
                         "",
                         "",
                         "",
@@ -877,7 +877,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "DérivééDeCh",
+                        "DérivéeDeCh",
                         "",
                         "",
                         "",
@@ -902,7 +902,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "DérivééDeTh",
+                        "DérivéeDeTh",
                         "",
                         "",
                         "",
@@ -928,7 +928,81 @@
         },
         {
             "__type__": "Deck",
-            "children": [],
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "df620c1a-6781-11eb-947a-b3659b522030",
+                    "deck_config_uuid": "b43877e5-5372-11eb-b816-40ec9983b13d",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Dénombrement",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Anki",
+                                "Cardinal d'une union",
+                                "Soient \\(A\\) et \\(B\\) deux ensembles finis",
+                                "<div>\\(A\\) et \\(B\\)&nbsp; disjoints</div>",
+                                "",
+                                "\\[ \\mathrm{Card} \\left( A \\cup B \\right) = \\mathrm{Card} ( A ) + \\mathrm{Card} ( B ) \\]",
+                                "",
+                                "v",
+                                "v"
+                            ],
+                            "guid": "D$}MhkH3WQ",
+                            "note_model_uuid": "b436cbaa-5372-11eb-8311-40ec9983b13d",
+                            "tags": [
+                                "06_Dénombrement"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Anki",
+                                "",
+                                "Soient \\(A\\) et \\(B\\) deux ensembles finis",
+                                "",
+                                "\\mathrm{Card} \\left( A \\cup B \\right)",
+                                "",
+                                "\\mathrm{Card} ( A ) + \\mathrm{Card} ( B ) - \\mathrm{Card} \\left( A \\cap B \\right)",
+                                "",
+                                "",
+                                "v",
+                                "v"
+                            ],
+                            "guid": "g:~Jm#@?vq",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": [
+                                "06_Dénombrement"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Anki",
+                                "",
+                                "Soient \\(A\\) et \\(B\\) deux ensembles finis",
+                                "",
+                                "\\mathrm{Card} \\left( A \\cup B \\right) +&nbsp;&nbsp;\\mathrm{Card} \\left( A \\cap B \\right)",
+                                "",
+                                "\\mathrm{Card} ( A ) + \\mathrm{Card} ( B )",
+                                "",
+                                "",
+                                "v",
+                                ""
+                            ],
+                            "guid": "d6HvE7rc^9",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
             "crowdanki_uuid": "b43877e4-5372-11eb-8102-40ec9983b13d",
             "deck_config_uuid": "b43877e5-5372-11eb-b816-40ec9983b13d",
             "desc": "",
@@ -941,12 +1015,12 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Espace probabilisable",
+                        "Tribu",
                         "",
                         "Soient \\(\\Omega\\) un ensemble non vide et \\(\\mathscr A\\subset\\mathscr P\\left(\\Omega\\right)\\)",
-                        "&nbsp;\\(\\mathbb E:=\\left(\\Omega,\\mathscr A\\right)\\) est un espace probabilisable",
+                        "\\(\\mathscr A\\) est une tribu sur \\(\\Omega\\)",
                         "",
-                        "\\(\\mathscr A)\\) est une tribu sur \\(\\Omega\\)",
+                        "<div>\\[\\Omega\\in\\mathscr A\\qquad\\text{et} \\qquad\\forall A\\in\\mathscr A,\\quad \\overline A\\in\\mathscr A\\]</div><div>\\[\\text{et}\\qquad\\forall \\left(A_i\\right)_{i\\in\\mathbb N}\\in\\mathscr A^{\\mathbb N},\\quad \\bigcup_{i=0}^{+\\infty}A_i\\in\\mathscr A\\]</div>",
                         "",
                         "v",
                         "v"
@@ -960,31 +1034,12 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Espace probabilisé",
+                        "Probabilité sur une tribu",
                         "",
-                        "Soit&nbsp;&nbsp;\\(\\mathbb E:=\\left(\\Omega,\\mathscr A\\right)\\) un espace probabilisable",
-                        "&nbsp;\\(\\mathbb E:=\\left(\\Omega,\\mathscr A,\\mathbb P\\right)\\) est un espace probabilisé",
+                        "Soit&nbsp;&nbsp;\\(\\left(\\Omega,\\mathscr A\\right)\\) un espace probabilisable",
+                        "&nbsp;\\(\\mathbb P\\) est une probabilité sur \\(\\mathscr A\\)",
                         "",
-                        "\\(\\mathbb P\\) est une probabilité sur \\(\\mathscr A\\)",
-                        "",
-                        "v",
-                        "v"
-                    ],
-                    "guid": "yT#@2cNQ,v",
-                    "note_model_uuid": "b436cbaa-5372-11eb-8311-40ec9983b13d",
-                    "tags": [
-                        "ECE1"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "ProbabilitéSurUneTribu",
-                        "",
-                        "Soient&nbsp;&nbsp;\\(\\Omega\\) un ensemble non vide et ,\\(\\mathscr A\\) une tribu sur \\(\\Omega\\)&nbsp;",
-                        "&nbsp;\\(\\mathbb P\\right)\\) est une probabilité sur \\mathscr A",
-                        "",
-                        "\\(\\mathbb P\\) est une application de \\(\\mathscr A\\) dans \\([0;1]\\) \\(\\sigma\\)-additive telle que \\(\\mathbb P\\left(\\Omega\\right)=1\\)",
+                        "\\(\\mathbb P\\) est une application \\(\\sigma\\)-additive de \\(\\mathscr A\\) dans \\([0;1]\\) telle que \\(\\mathbb P\\left(\\Omega\\right)=1\\)",
                         "",
                         "v",
                         "v"
@@ -994,6 +1049,312 @@
                     "tags": [
                         "ECE1"
                     ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Anki",
+                        "",
+                        "",
+                        "Une {{c1::expérience aléatoire}} est modélisée par {{c2::un ensemble non vide \\(\\Omega\\)}} dont l'un des éléments {{c3::\\(\\omega_0\\) modélise l'issue.}}"
+                    ],
+                    "guid": ")m$72JC@*",
+                    "note_model_uuid": "df61a553-6781-11eb-8ef3-b3659b522030",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Anki",
+                        "",
+                        "",
+                        "L'ensemble \\(\\Omega\\) qui modélise une expérience aléatoire s'appelle {{c1::<b>l'univers</b>, ou univers des possibles, de l'expérience.}}"
+                    ],
+                    "guid": "BGx9Yl1<$`",
+                    "note_model_uuid": "df61a553-6781-11eb-8ef3-b3659b522030",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Anki",
+                        "",
+                        "",
+                        "Les éléments d'un univers \\(\\Omega\\) modélisant une expérience aléatoire s'appellent {{c1::les <b>éventualités</b> de l'expérience.}}"
+                    ],
+                    "guid": "bjY.*qw0C<",
+                    "note_model_uuid": "df61a553-6781-11eb-8ef3-b3659b522030",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Anki",
+                        "",
+                        "",
+                        "Les différentes observations qui peuvent être réalisées lors d'une expérience aléatoire d'univers \\(\\Omega\\)&nbsp;sont modélisées par {{c1::les <b>éléments d'une tribu</b> sur \\(\\Omega\\).}}"
+                    ],
+                    "guid": "q9`,~=b,jG",
+                    "note_model_uuid": "df61a553-6781-11eb-8ef3-b3659b522030",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Anki",
+                        "",
+                        "Soient \\(\\Omega\\) un univers et \\(\\mathscr A\\) une tribu sur \\(\\Omega\\)",
+                        "Le couple \\(\\left(\\Omega,\\mathscr A\\right)\\) est appelé {{c1::un espace probabilisable.}}"
+                    ],
+                    "guid": "luyw2U+h>P",
+                    "note_model_uuid": "df61a553-6781-11eb-8ef3-b3659b522030",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Anki",
+                        "",
+                        "Soient \\(\\Omega\\) un univers, \\(\\mathscr A\\) une tribu sur \\(\\Omega\\), et \\(\\mathbb P\\) une probabilité sur \\(\\mathscr A\\)",
+                        "Le triplet \\(\\left(\\Omega,\\mathscr A,\\mathbb P\\right)\\) est appelé {{c1::un espace probabilisé.}}"
+                    ],
+                    "guid": "zd^nDE;S[O",
+                    "note_model_uuid": "df61a553-6781-11eb-8ef3-b3659b522030",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Anki",
+                        "",
+                        "Soient \\(\\Omega\\) un ensemble non vide, \\(\\mathscr A\\subset\\mathscr P\\left(\\Omega\\right)\\) et \\(\\mathbb P:\\mathscr A\\to\\mathbb R\\)&nbsp;",
+                        "\\(\\mathbb P\\) est une application \\(\\sigma\\)-additive sur&nbsp;\\(\\mathscr A\\)",
+                        "",
+                        "Pour toute famille \\(\\left(A_i\\right)_{i\\in\\mathbb N}\\) d'éléments de \\(\\mathscr A\\) deux à deux disjoints, on a :\\[\\mathbb P\\left(\\bigcup_{i=0}^{+\\infty}A_i\\right)=\\sum_{i=0}^{+\\infty}\\mathbb P\\left(A_i\\right)\\]",
+                        "",
+                        "v",
+                        "v"
+                    ],
+                    "guid": "0/s[(_wc&",
+                    "note_model_uuid": "b436cbaa-5372-11eb-8311-40ec9983b13d",
+                    "tags": [
+                        "ECE1"
+                    ]
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "df62c483-6781-11eb-8d67-b3659b522030",
+                    "deck_config_uuid": "b43877e5-5372-11eb-b816-40ec9983b13d",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Formules",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Série géométrique",
+                                "",
+                                "Soit \\(q \\in]-1 ; 1[\\)",
+                                "",
+                                "\\sum_{n=0}^{+\\infty} q^{n}",
+                                "",
+                                "\\frac{1}{1-q}",
+                                "",
+                                "",
+                                "v",
+                                "v"
+                            ],
+                            "guid": "IN?Pd^n0GF",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Première série géométrique dérivée",
+                                "",
+                                "Soit \\(q \\in]-1 ; [1\\)",
+                                "",
+                                "\\sum_{n=1}^{+\\infty}n q^{n-1}",
+                                "",
+                                "\\frac{1}{(1-q)^2}",
+                                "",
+                                "",
+                                "v",
+                                "v"
+                            ],
+                            "guid": "tNa8n&::ge",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": [
+                                "ECE1"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Deuxième série géométrique dérivée",
+                                "",
+                                "Soit \\(q \\in]-1 ; [1\\)",
+                                "",
+                                "\\sum_{n=2}^{+\\infty}n(n-1) q^{n-2}",
+                                "",
+                                "\\frac{2}{(1-q)^3}",
+                                "",
+                                "",
+                                "v",
+                                "v"
+                            ],
+                            "guid": "A=wxM70CCF",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Somme des termes d'une suite géométrique",
+                                "",
+                                "Soient \\(v\\) une suite géométrique de raison \\(q \\neq1\\) et \\(p,n\\in\\mathbb N\\) avec \\(p\\leq n\\)",
+                                "",
+                                "\\sum_{k=p}^{n}v_k",
+                                "",
+                                "\\frac{v_p-v_{n+1}}{1-q}",
+                                "v_p\\cdot\\frac{1-q^{n-p+1}}{1-q}",
+                                "",
+                                "v",
+                                "v"
+                            ],
+                            "guid": "ix|im}v0%D",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": [
+                                "ECE1"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Somme des entiers",
+                                "Somme des entiers",
+                                "Soit \\( n \\in \\mathbb N \\)",
+                                "",
+                                "\\sum_{k=1}^n k",
+                                "",
+                                "\\frac{n(n+1)}2",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "guid": "p!_Wi!vrPy",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Somme des carrés",
+                                "Somme des carrés",
+                                "Soit \\(n\\in\\mathbb N\\)",
+                                "",
+                                "\\sum_{k=1}^n k^2",
+                                "",
+                                "\\frac{n(n+1)(2n+1)}6",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "guid": "bTmUop_wm9",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Somme des cubes",
+                                "Somme des cubes",
+                                "Soit \\(n\\in\\mathbb N\\)",
+                                "",
+                                "\\sum_{k=1}^n k^3",
+                                "",
+                                "\\left(\\frac{n(n+1)}2\\right)^2",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "guid": "p;@5kp#!RO",
+                            "note_model_uuid": "b4367ea0-5372-11eb-b8ad-40ec9983b13d",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Série exponentielle",
+                                "",
+                                "",
+                                "\\forall x\\in\\mathbb R,\\quad e^x=série:\\sum_{n=0}^{+\\infty}\\frac{x^n}{n!}"
+                            ],
+                            "guid": "o0;XGC-c*}",
+                            "note_model_uuid": "df61a553-6781-11eb-8ef3-b3659b522030",
+                            "tags": [
+                                "ECE1",
+                                "ECS1"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "df629ab1-6781-11eb-8ca0-b3659b522030",
+            "deck_config_uuid": "b43877e5-5372-11eb-b816-40ec9983b13d",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Sommes et séries",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de Riemann",
+                        "Critère de Riemann",
+                        "Soit \\(\\alpha\\in\\mathbb R\\)",
+                        "\\(\\alpha&gt;1\\)",
+                        "",
+                        "\\[\\sum_{n\\geqslant1}\\frac1{n^\\alpha}\\text{ converge }\\]",
+                        "",
+                        "v",
+                        "v"
+                    ],
+                    "guid": "N^I!{wx6r$",
+                    "note_model_uuid": "b436cbaa-5372-11eb-8311-40ec9983b13d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de Riemann",
+                        "Critère de Riemann",
+                        "Soit \\(\\alpha\\in\\mathbb R\\)",
+                        "\\(\\alpha\\leqslant1\\)",
+                        "",
+                        "\\[\\sum_{n\\geqslant1}\\frac1{n^\\alpha}\\text{ diverge&nbsp;}\\]",
+                        "",
+                        "v",
+                        "v"
+                    ],
+                    "guid": "jz:z|K~{ZD",
+                    "note_model_uuid": "b436cbaa-5372-11eb-8311-40ec9983b13d",
+                    "tags": []
                 }
             ]
         }
@@ -1052,6 +1413,7 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [],
+    "mid": 1610536871125,
     "name": "CoursDeMaths",
     "note_models": [
         {
@@ -1191,11 +1553,8 @@
             ],
             "sortf": 0,
             "tags": [
-                "MP",
-                "ch",
-                "cosh",
-                "tanh",
-                "th"
+                "ECE1",
+                "ECS1"
             ],
             "tmpls": [
                 {
@@ -1207,7 +1566,7 @@
                     "did": null,
                     "name": "Sens direct",
                     "ord": 0,
-                    "qfmt": "<div class=\"fiche\">\n\n<p class=\"titre\">{{Titre}}</p>\n\n<span class=\"objets\"><p>{{Objets}}</p></span>\n\n\\[{{#Quantification}}{{Quantification}},\\ {{/Quantification}}{{Membre de gauche}}{{Symbole alternatif}} {{^Symbole alternatif}}={{/Symbole alternatif}}\\phantom{ {{Membre de droite}} }\\]\n\n</div>\n\n<a href=\"https://wiki.echos.systems#{{Tiddler associé}}:Anki\">\n<svg class=\"echologo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 30\"  height=\"2em\" version=\"1.1\">\n\t\t\t\t\t<g transform=\"translate(13.8,9)\" stroke-width=\"0\" fill=\"white\">\n\t\t\t\t\t\t<circle cx=\"1.2\" cy=\"6\" r=\"15\" fill=\"rgb(137,211,158)\" opacity=\"1\"/>\n\t\t\t\t\t\t<circle cx=\"0\" cy=\"0\" r=\"2\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,-2.598076211353316A3,3 0 0,0-2.598076211353316,1.5A5,5 0 0,1-1.5,-6.840716898472603A3,3 0 0,0-1.5,-2.598076211353316\"/>\n\t\t\t\t\t\t<path d=\"M0,-3A3,3 0 0,1 3,0A6,6 0 0,1 11.485281374238571,0A8,8 0 0,0 0,-3\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,2.598076211353316A3,3 0 0,0 2.598076211353316,1.5A13,13 0 0,1-1.5,19.56863895983046A12,12 0 0,0-1.5,2.598076211353316\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n</a>\n\n<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr\">\n<svg\n   class=\"licence\"\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://web.resource.org/cc/\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"80\"\n   height=\"15\"\n   id=\"svg2279\"\n   sodipodi:version=\"0.32\"\n   inkscape:version=\"0.45+devel\"\n   version=\"1.0\"\n   sodipodi:docname=\"by-nc-nd.svg\"\n   inkscape:output_extension=\"org.inkscape.output.svg.inkscape\">\n  <defs\n     id=\"defs2281\">\n    <clipPath\n       clipPathUnits=\"userSpaceOnUse\"\n       id=\"clipPath3442\">\n      <rect\n         style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n         id=\"rect3444\"\n         width=\"20.614058\"\n         height=\"12.483703\"\n         x=\"171.99832\"\n         y=\"239.1203\" />\n    </clipPath>\n  </defs>\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#999999\"\n     borderopacity=\"1\"\n     gridtolerance=\"10000\"\n     guidetolerance=\"10\"\n     objecttolerance=\"10\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"10.5125\"\n     inkscape:cx=\"40\"\n     inkscape:cy=\"7.5\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n     width=\"80px\"\n     height=\"15px\"\n     showborder=\"true\"\n     inkscape:showpageshadow=\"false\"\n     inkscape:window-width=\"935\"\n     inkscape:window-height=\"624\"\n     inkscape:window-x=\"50\"\n     inkscape:window-y=\"160\" />\n  <metadata\n     id=\"metadata2284\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\">\n    <g\n       id=\"BY-NC-ND\"\n       transform=\"matrix(0.9875019,0,0,0.9333518,-323.90064,-411.87964)\">\n      <g\n         id=\"g3783\"\n         transform=\"translate(158,204)\">\n        <rect\n           style=\"fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.04161763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n           id=\"rect3785\"\n           width=\"80\"\n           height=\"15\"\n           x=\"170.5\"\n           y=\"237.86218\" />\n        <rect\n           y=\"239.36218\"\n           x=\"172\"\n           height=\"12\"\n           width=\"77\"\n           id=\"rect3787\"\n           style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n        <path\n           style=\"fill:#abb1aa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46913578\"\n           d=\"M 171.99996,239.37505 L 171.99996,251.37505 L 192.33474,251.37505 C 193.64339,249.62474 194.52652,247.59057 194.52652,245.37505 C 194.52652,243.17431 193.65859,241.1179 192.36599,239.37505 L 171.99996,239.37505 z\"\n           id=\"path3789\"\n           sodipodi:nodetypes=\"cccscc\" />\n        <g\n           id=\"g3791\"\n           transform=\"matrix(0.9612533,0,0,0.9612533,6.8341566,9.5069994)\"\n           clip-path=\"url(#clipPath3442)\">\n          <path\n             id=\"path3793\"\n             cx=\"296.35416\"\n             ry=\"22.939548\"\n             cy=\"264.3577\"\n             type=\"arc\"\n             rx=\"22.939548\"\n             d=\"M 190.06417,245.36206 C 190.06667,249.25405 186.91326,252.41072 183.02153,252.41323 C 179.12979,252.41572 175.97262,249.26256 175.97036,245.3706 C 175.97036,245.36783 175.97036,245.36507 175.97036,245.36206 C 175.9681,241.47007 179.12126,238.3134 183.013,238.31113 C 186.90524,238.30864 190.06191,241.46181 190.06417,245.3538 C 190.06417,245.35628 190.06417,245.35929 190.06417,245.36206 z\"\n             style=\"opacity:1;fill:#ffffff\" />\n          <path\n             d=\"M 188.74576,239.62226 C 190.30843,241.18492 191.08988,243.09869 191.08988,245.36206 C 191.08988,247.62592 190.32197,249.51913 188.78615,251.04165 C 187.15627,252.64521 185.22995,253.44672 183.00722,253.44672 C 180.81132,253.44672 178.91837,252.65172 177.32887,251.06174 C 175.73912,249.47198 174.94436,247.57226 174.94436,245.36206 C 174.94436,243.15235 175.73912,241.23908 177.32887,239.62226 C 178.87799,238.0591 180.77094,237.27764 183.00722,237.27764 C 185.2706,237.27764 187.18312,238.05909 188.74576,239.62226 z M 178.38093,240.67355 C 177.05978,242.008 176.39945,243.57116 176.39945,245.36429 C 176.39945,247.15694 177.05326,248.70682 178.36062,250.01393 C 179.66822,251.32153 181.22487,251.97509 183.03105,251.97509 C 184.83724,251.97509 186.40716,251.31502 187.74161,249.99412 C 189.0086,248.76725 189.64234,247.22467 189.64234,245.36429 C 189.64234,243.51799 188.99831,241.95084 187.71101,240.66354 C 186.42396,239.37649 184.86406,238.7327 183.03105,238.7327 C 181.19804,238.73271 179.64767,239.37975 178.38093,240.67355 z M 181.85761,244.57559 C 181.65573,244.13545 181.35354,243.91525 180.95051,243.91525 C 180.23802,243.91525 179.8819,244.39501 179.8819,245.35404 C 179.8819,246.31328 180.23802,246.79255 180.95051,246.79255 C 181.421,246.79255 181.75705,246.55908 181.95869,246.09111 L 182.94629,246.61701 C 182.47555,247.45339 181.76934,247.87168 180.82763,247.87168 C 180.10136,247.87168 179.51953,247.64899 179.08265,247.20409 C 178.64502,246.7587 178.42684,246.14477 178.42684,245.36206 C 178.42684,244.59313 178.65204,243.98271 179.10271,243.53056 C 179.55338,243.07838 180.11463,242.8524 180.7875,242.8524 C 181.78288,242.8524 182.49561,243.24465 182.92647,244.02835 L 181.85761,244.57559 z M 186.50398,244.57559 C 186.30184,244.13545 186.00567,243.91525 185.61517,243.91525 C 184.88839,243.91525 184.52474,244.39501 184.52474,245.35404 C 184.52474,246.31328 184.88839,246.79255 185.61517,246.79255 C 186.08642,246.79255 186.41644,246.55908 186.6048,246.09111 L 187.61447,246.61701 C 187.14448,247.45339 186.43926,247.87168 185.49931,247.87168 C 184.77403,247.87168 184.19346,247.64899 183.75683,247.20409 C 183.32096,246.7587 183.10254,246.14477 183.10254,245.36206 C 183.10254,244.59313 183.32422,243.98271 183.76737,243.53056 C 184.21026,243.07838 184.77404,242.8524 185.4592,242.8524 C 186.45282,242.8524 187.16455,243.24465 187.5939,244.02835 L 186.50398,244.57559 z\"\n             id=\"path3795\"\n             style=\"opacity:1\" />\n        </g>\n      </g>\n      <path\n         id=\"text3797\"\n         d=\"M 357.4197,448.68503 C 357.66518,448.68504 357.85131,448.63146 357.9781,448.52428 C 358.10488,448.41712 358.16827,448.25905 358.16828,448.05008 C 358.16827,447.84378 358.10488,447.68705 357.9781,447.57988 C 357.85131,447.47004 357.66518,447.41512 357.4197,447.41511 L 356.55784,447.41511 L 356.55784,448.68503 L 357.4197,448.68503 M 357.4723,451.30929 C 357.78522,451.30929 358.0199,451.24364 358.17637,451.11236 C 358.33552,450.98109 358.4151,450.78283 358.4151,450.51759 C 358.4151,450.25771 358.33686,450.06347 358.18041,449.93488 C 358.02396,449.80359 357.78792,449.73796 357.4723,449.73795 L 356.55784,449.73795 L 356.55784,451.30929 L 357.4723,451.30929 M 358.92089,449.15122 C 359.25538,449.24767 359.51434,449.42583 359.69779,449.68571 C 359.88121,449.94559 359.97293,450.26441 359.97294,450.64217 C 359.97293,451.22087 359.776,451.65222 359.38217,451.93621 C 358.98833,452.2202 358.38947,452.36219 357.5856,452.36219 L 355.00001,452.36219 L 355.00001,446.3622 L 357.33878,446.3622 C 358.17771,446.36221 358.78466,446.48813 359.15962,446.73996 C 359.53727,446.99181 359.7261,447.39502 359.7261,447.9496 C 359.7261,448.24164 359.65732,448.4908 359.51975,448.69709 C 359.38217,448.90072 359.18255,449.05209 358.92089,449.15122 M 359.83746,446.3622 L 361.54096,446.3622 L 362.91671,448.50018 L 364.29245,446.3622 L 366,446.3622 L 363.69764,449.8344 L 363.69764,452.36219 L 362.13982,452.36219 L 362.13982,449.8344 L 359.83746,446.3622 M 365.15837,449.40842 L 367.69946,449.40842 L 367.69946,450.57787 L 365.15837,450.57787 L 365.15837,449.40842 M 368.9174,446.3622 L 370.65732,446.3622 L 372.85447,450.47741 L 372.85447,446.3622 L 374.33138,446.3622 L 374.33138,452.36219 L 372.59146,452.36219 L 370.3943,448.24699 L 370.3943,452.36219 L 368.9174,452.36219 L 368.9174,446.3622 M 380.65173,452.03266 C 380.36579,452.18002 380.0677,452.2912 379.75749,452.36622 C 379.44727,452.44123 379.12357,452.47875 378.78638,452.47875 C 377.78019,452.47875 376.98307,452.20011 376.395,451.64284 C 375.80693,451.08289 375.5129,450.32469 375.5129,449.36823 C 375.5129,448.40909 375.80693,447.65089 376.395,447.09361 C 376.98307,446.53367 377.78019,446.2537 378.78638,446.25369 C 379.12357,446.2537 379.44727,446.29121 379.75749,446.36621 C 380.0677,446.44124 380.36579,446.55243 380.65173,446.69977 L 380.65173,447.94157 C 380.36309,447.746 380.0785,447.60266 379.79796,447.51156 C 379.5174,447.42047 379.22203,447.37493 378.91181,447.37493 C 378.35611,447.37493 377.91911,447.55175 377.6008,447.9054 C 377.28249,448.25905 377.12333,448.74666 377.12333,449.36823 C 377.12333,449.98712 377.28249,450.47339 377.6008,450.82703 C 377.91911,451.18069 378.35611,451.35751 378.91181,451.35751 C 379.22203,451.35751 379.5174,451.31197 379.79796,451.22087 C 380.0785,451.12978 380.36309,450.98644 380.65173,450.79086 L 380.65173,452.03266 M 381.82921,449.40842 L 384.3703,449.40842 L 384.3703,450.57787 L 381.82921,450.57787 L 381.82921,449.40842 M 385.58824,446.3622 L 387.32815,446.3622 L 389.52531,450.47741 L 389.52531,446.3622 L 391.00222,446.3622 L 391.00222,452.36219 L 389.26229,452.36219 L 387.06515,448.24699 L 387.06515,452.36219 L 385.58824,452.36219 L 385.58824,446.3622 M 394.08956,447.53165 L 394.08956,451.19274 L 394.64795,451.19274 C 395.28456,451.19274 395.77013,451.03602 396.10462,450.72255 C 396.44181,450.40909 396.61041,449.95363 396.61042,449.35617 C 396.61041,448.7614 396.44317,448.30862 396.10867,447.99783 C 395.77417,447.68705 395.28726,447.53166 394.64795,447.53165 L 394.08956,447.53165 M 392.53172,446.3622 L 394.17453,446.3622 C 395.09169,446.36221 395.77417,446.42784 396.22197,446.55912 C 396.67245,446.68772 397.0582,446.90742 397.37922,447.2182 C 397.66246,447.48879 397.87286,447.80092 398.01044,448.15456 C 398.14801,448.50822 398.2168,448.90875 398.21681,449.35617 C 398.2168,449.80896 398.14801,450.21351 398.01044,450.56983 C 397.87286,450.92349 397.66246,451.23561 397.37922,451.50621 C 397.05551,451.81699 396.66706,452.03802 396.21387,452.1693 C 395.76069,452.29789 395.0809,452.36219 394.17453,452.36219 L 392.53172,452.36219 L 392.53172,446.3622\"\n         style=\"font-size:8.25858784px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:'Bitstream Vera Sans'\" />\n    </g>\n  </g>\n</svg>\n</a>"
+                    "qfmt": "<div class=\"fiche\">\n\n<p class=\"titre\">{{Titre}}</p>\n\n<span class=\"objets\"><p>{{Objets}}</p></span>\n\n\\[{{#Quantification}}{{Quantification}},\\quad {{/Quantification}}{{Membre de gauche}}{{Symbole alternatif}} {{^Symbole alternatif}}={{/Symbole alternatif}}\\phantom{ {{Membre de droite}} }\\]\n\n</div>\n<a href=\"https://wiki.echos.systems#{{Tiddler associé}}\">\n<svg class=\"echologo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 30\"  height=\"2em\" version=\"1.1\">\n\t\t\t\t\t<g transform=\"translate(13.8,9)\" stroke-width=\"0\" fill=\"white\">\n\t\t\t\t\t\t<circle cx=\"1.2\" cy=\"6\" r=\"15\" fill=\"rgb(137,211,158)\" opacity=\"1\"/>\n\t\t\t\t\t\t<circle cx=\"0\" cy=\"0\" r=\"2\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,-2.598076211353316A3,3 0 0,0-2.598076211353316,1.5A5,5 0 0,1-1.5,-6.840716898472603A3,3 0 0,0-1.5,-2.598076211353316\"/>\n\t\t\t\t\t\t<path d=\"M0,-3A3,3 0 0,1 3,0A6,6 0 0,1 11.485281374238571,0A8,8 0 0,0 0,-3\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,2.598076211353316A3,3 0 0,0 2.598076211353316,1.5A13,13 0 0,1-1.5,19.56863895983046A12,12 0 0,0-1.5,2.598076211353316\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n</a>\n\n<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr\">\n<svg\n   class=\"licence\"\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://web.resource.org/cc/\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"80\"\n   height=\"15\"\n   id=\"svg2279\"\n   sodipodi:version=\"0.32\"\n   inkscape:version=\"0.45+devel\"\n   version=\"1.0\"\n   sodipodi:docname=\"by-nc-nd.svg\"\n   inkscape:output_extension=\"org.inkscape.output.svg.inkscape\">\n  <defs\n     id=\"defs2281\">\n    <clipPath\n       clipPathUnits=\"userSpaceOnUse\"\n       id=\"clipPath3442\">\n      <rect\n         style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n         id=\"rect3444\"\n         width=\"20.614058\"\n         height=\"12.483703\"\n         x=\"171.99832\"\n         y=\"239.1203\" />\n    </clipPath>\n  </defs>\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#999999\"\n     borderopacity=\"1\"\n     gridtolerance=\"10000\"\n     guidetolerance=\"10\"\n     objecttolerance=\"10\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"10.5125\"\n     inkscape:cx=\"40\"\n     inkscape:cy=\"7.5\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n     width=\"80px\"\n     height=\"15px\"\n     showborder=\"true\"\n     inkscape:showpageshadow=\"false\"\n     inkscape:window-width=\"935\"\n     inkscape:window-height=\"624\"\n     inkscape:window-x=\"50\"\n     inkscape:window-y=\"160\" />\n  <metadata\n     id=\"metadata2284\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\">\n    <g\n       id=\"BY-NC-ND\"\n       transform=\"matrix(0.9875019,0,0,0.9333518,-323.90064,-411.87964)\">\n      <g\n         id=\"g3783\"\n         transform=\"translate(158,204)\">\n        <rect\n           style=\"fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.04161763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n           id=\"rect3785\"\n           width=\"80\"\n           height=\"15\"\n           x=\"170.5\"\n           y=\"237.86218\" />\n        <rect\n           y=\"239.36218\"\n           x=\"172\"\n           height=\"12\"\n           width=\"77\"\n           id=\"rect3787\"\n           style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n        <path\n           style=\"fill:#abb1aa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46913578\"\n           d=\"M 171.99996,239.37505 L 171.99996,251.37505 L 192.33474,251.37505 C 193.64339,249.62474 194.52652,247.59057 194.52652,245.37505 C 194.52652,243.17431 193.65859,241.1179 192.36599,239.37505 L 171.99996,239.37505 z\"\n           id=\"path3789\"\n           sodipodi:nodetypes=\"cccscc\" />\n        <g\n           id=\"g3791\"\n           transform=\"matrix(0.9612533,0,0,0.9612533,6.8341566,9.5069994)\"\n           clip-path=\"url(#clipPath3442)\">\n          <path\n             id=\"path3793\"\n             cx=\"296.35416\"\n             ry=\"22.939548\"\n             cy=\"264.3577\"\n             type=\"arc\"\n             rx=\"22.939548\"\n             d=\"M 190.06417,245.36206 C 190.06667,249.25405 186.91326,252.41072 183.02153,252.41323 C 179.12979,252.41572 175.97262,249.26256 175.97036,245.3706 C 175.97036,245.36783 175.97036,245.36507 175.97036,245.36206 C 175.9681,241.47007 179.12126,238.3134 183.013,238.31113 C 186.90524,238.30864 190.06191,241.46181 190.06417,245.3538 C 190.06417,245.35628 190.06417,245.35929 190.06417,245.36206 z\"\n             style=\"opacity:1;fill:#ffffff\" />\n          <path\n             d=\"M 188.74576,239.62226 C 190.30843,241.18492 191.08988,243.09869 191.08988,245.36206 C 191.08988,247.62592 190.32197,249.51913 188.78615,251.04165 C 187.15627,252.64521 185.22995,253.44672 183.00722,253.44672 C 180.81132,253.44672 178.91837,252.65172 177.32887,251.06174 C 175.73912,249.47198 174.94436,247.57226 174.94436,245.36206 C 174.94436,243.15235 175.73912,241.23908 177.32887,239.62226 C 178.87799,238.0591 180.77094,237.27764 183.00722,237.27764 C 185.2706,237.27764 187.18312,238.05909 188.74576,239.62226 z M 178.38093,240.67355 C 177.05978,242.008 176.39945,243.57116 176.39945,245.36429 C 176.39945,247.15694 177.05326,248.70682 178.36062,250.01393 C 179.66822,251.32153 181.22487,251.97509 183.03105,251.97509 C 184.83724,251.97509 186.40716,251.31502 187.74161,249.99412 C 189.0086,248.76725 189.64234,247.22467 189.64234,245.36429 C 189.64234,243.51799 188.99831,241.95084 187.71101,240.66354 C 186.42396,239.37649 184.86406,238.7327 183.03105,238.7327 C 181.19804,238.73271 179.64767,239.37975 178.38093,240.67355 z M 181.85761,244.57559 C 181.65573,244.13545 181.35354,243.91525 180.95051,243.91525 C 180.23802,243.91525 179.8819,244.39501 179.8819,245.35404 C 179.8819,246.31328 180.23802,246.79255 180.95051,246.79255 C 181.421,246.79255 181.75705,246.55908 181.95869,246.09111 L 182.94629,246.61701 C 182.47555,247.45339 181.76934,247.87168 180.82763,247.87168 C 180.10136,247.87168 179.51953,247.64899 179.08265,247.20409 C 178.64502,246.7587 178.42684,246.14477 178.42684,245.36206 C 178.42684,244.59313 178.65204,243.98271 179.10271,243.53056 C 179.55338,243.07838 180.11463,242.8524 180.7875,242.8524 C 181.78288,242.8524 182.49561,243.24465 182.92647,244.02835 L 181.85761,244.57559 z M 186.50398,244.57559 C 186.30184,244.13545 186.00567,243.91525 185.61517,243.91525 C 184.88839,243.91525 184.52474,244.39501 184.52474,245.35404 C 184.52474,246.31328 184.88839,246.79255 185.61517,246.79255 C 186.08642,246.79255 186.41644,246.55908 186.6048,246.09111 L 187.61447,246.61701 C 187.14448,247.45339 186.43926,247.87168 185.49931,247.87168 C 184.77403,247.87168 184.19346,247.64899 183.75683,247.20409 C 183.32096,246.7587 183.10254,246.14477 183.10254,245.36206 C 183.10254,244.59313 183.32422,243.98271 183.76737,243.53056 C 184.21026,243.07838 184.77404,242.8524 185.4592,242.8524 C 186.45282,242.8524 187.16455,243.24465 187.5939,244.02835 L 186.50398,244.57559 z\"\n             id=\"path3795\"\n             style=\"opacity:1\" />\n        </g>\n      </g>\n      <path\n         id=\"text3797\"\n         d=\"M 357.4197,448.68503 C 357.66518,448.68504 357.85131,448.63146 357.9781,448.52428 C 358.10488,448.41712 358.16827,448.25905 358.16828,448.05008 C 358.16827,447.84378 358.10488,447.68705 357.9781,447.57988 C 357.85131,447.47004 357.66518,447.41512 357.4197,447.41511 L 356.55784,447.41511 L 356.55784,448.68503 L 357.4197,448.68503 M 357.4723,451.30929 C 357.78522,451.30929 358.0199,451.24364 358.17637,451.11236 C 358.33552,450.98109 358.4151,450.78283 358.4151,450.51759 C 358.4151,450.25771 358.33686,450.06347 358.18041,449.93488 C 358.02396,449.80359 357.78792,449.73796 357.4723,449.73795 L 356.55784,449.73795 L 356.55784,451.30929 L 357.4723,451.30929 M 358.92089,449.15122 C 359.25538,449.24767 359.51434,449.42583 359.69779,449.68571 C 359.88121,449.94559 359.97293,450.26441 359.97294,450.64217 C 359.97293,451.22087 359.776,451.65222 359.38217,451.93621 C 358.98833,452.2202 358.38947,452.36219 357.5856,452.36219 L 355.00001,452.36219 L 355.00001,446.3622 L 357.33878,446.3622 C 358.17771,446.36221 358.78466,446.48813 359.15962,446.73996 C 359.53727,446.99181 359.7261,447.39502 359.7261,447.9496 C 359.7261,448.24164 359.65732,448.4908 359.51975,448.69709 C 359.38217,448.90072 359.18255,449.05209 358.92089,449.15122 M 359.83746,446.3622 L 361.54096,446.3622 L 362.91671,448.50018 L 364.29245,446.3622 L 366,446.3622 L 363.69764,449.8344 L 363.69764,452.36219 L 362.13982,452.36219 L 362.13982,449.8344 L 359.83746,446.3622 M 365.15837,449.40842 L 367.69946,449.40842 L 367.69946,450.57787 L 365.15837,450.57787 L 365.15837,449.40842 M 368.9174,446.3622 L 370.65732,446.3622 L 372.85447,450.47741 L 372.85447,446.3622 L 374.33138,446.3622 L 374.33138,452.36219 L 372.59146,452.36219 L 370.3943,448.24699 L 370.3943,452.36219 L 368.9174,452.36219 L 368.9174,446.3622 M 380.65173,452.03266 C 380.36579,452.18002 380.0677,452.2912 379.75749,452.36622 C 379.44727,452.44123 379.12357,452.47875 378.78638,452.47875 C 377.78019,452.47875 376.98307,452.20011 376.395,451.64284 C 375.80693,451.08289 375.5129,450.32469 375.5129,449.36823 C 375.5129,448.40909 375.80693,447.65089 376.395,447.09361 C 376.98307,446.53367 377.78019,446.2537 378.78638,446.25369 C 379.12357,446.2537 379.44727,446.29121 379.75749,446.36621 C 380.0677,446.44124 380.36579,446.55243 380.65173,446.69977 L 380.65173,447.94157 C 380.36309,447.746 380.0785,447.60266 379.79796,447.51156 C 379.5174,447.42047 379.22203,447.37493 378.91181,447.37493 C 378.35611,447.37493 377.91911,447.55175 377.6008,447.9054 C 377.28249,448.25905 377.12333,448.74666 377.12333,449.36823 C 377.12333,449.98712 377.28249,450.47339 377.6008,450.82703 C 377.91911,451.18069 378.35611,451.35751 378.91181,451.35751 C 379.22203,451.35751 379.5174,451.31197 379.79796,451.22087 C 380.0785,451.12978 380.36309,450.98644 380.65173,450.79086 L 380.65173,452.03266 M 381.82921,449.40842 L 384.3703,449.40842 L 384.3703,450.57787 L 381.82921,450.57787 L 381.82921,449.40842 M 385.58824,446.3622 L 387.32815,446.3622 L 389.52531,450.47741 L 389.52531,446.3622 L 391.00222,446.3622 L 391.00222,452.36219 L 389.26229,452.36219 L 387.06515,448.24699 L 387.06515,452.36219 L 385.58824,452.36219 L 385.58824,446.3622 M 394.08956,447.53165 L 394.08956,451.19274 L 394.64795,451.19274 C 395.28456,451.19274 395.77013,451.03602 396.10462,450.72255 C 396.44181,450.40909 396.61041,449.95363 396.61042,449.35617 C 396.61041,448.7614 396.44317,448.30862 396.10867,447.99783 C 395.77417,447.68705 395.28726,447.53166 394.64795,447.53165 L 394.08956,447.53165 M 392.53172,446.3622 L 394.17453,446.3622 C 395.09169,446.36221 395.77417,446.42784 396.22197,446.55912 C 396.67245,446.68772 397.0582,446.90742 397.37922,447.2182 C 397.66246,447.48879 397.87286,447.80092 398.01044,448.15456 C 398.14801,448.50822 398.2168,448.90875 398.21681,449.35617 C 398.2168,449.80896 398.14801,450.21351 398.01044,450.56983 C 397.87286,450.92349 397.66246,451.23561 397.37922,451.50621 C 397.05551,451.81699 396.66706,452.03802 396.21387,452.1693 C 395.76069,452.29789 395.0809,452.36219 394.17453,452.36219 L 392.53172,452.36219 L 392.53172,446.3622\"\n         style=\"font-size:8.25858784px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:'Bitstream Vera Sans'\" />\n    </g>\n  </g>\n</svg>\n</a>"
                 },
                 {
                     "afmt": "<div class=\"fiche\">\n\n<p class=\"titre\">{{Titre}}</p>\n\n<span class=\"objets\"><p>{{Objets}}</p></span>\n\n\\[{{#Quantification}}{{Quantification}},\\ {{/Quantification}}{{Membre de gauche alternatif}}{{Symbole alternatif}} {{^Symbole alternatif}}={{/Symbole alternatif}}{{Membre de droite}}\\]\n\n\n{{#Membre de droite alternatif}}\n\n<p>ou</p>\n\n\t\\[{{#Quantification}}{{Quantification}},\\ {{/Quantification}}{{Membre de gauche alternatif}}{{Symbole alternatif}}{{^Symbole alternatif}}={{/Symbole alternatif}}{{Membre de droite alternatif}}\\]\n\n{{/Membre de droite alternatif}}\n\n</div>\n\n<a href=\"https://wiki.echos.systems#{{Tiddler associé}}:Anki\">\n<svg class=\"echologo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 30\"  height=\"2em\" version=\"1.1\">\n\t\t\t\t\t<g transform=\"translate(13.8,9)\" stroke-width=\"0\" fill=\"white\">\n\t\t\t\t\t\t<circle cx=\"1.2\" cy=\"6\" r=\"15\" fill=\"rgb(137,211,158)\" opacity=\"1\"/>\n\t\t\t\t\t\t<circle cx=\"0\" cy=\"0\" r=\"2\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,-2.598076211353316A3,3 0 0,0-2.598076211353316,1.5A5,5 0 0,1-1.5,-6.840716898472603A3,3 0 0,0-1.5,-2.598076211353316\"/>\n\t\t\t\t\t\t<path d=\"M0,-3A3,3 0 0,1 3,0A6,6 0 0,1 11.485281374238571,0A8,8 0 0,0 0,-3\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,2.598076211353316A3,3 0 0,0 2.598076211353316,1.5A13,13 0 0,1-1.5,19.56863895983046A12,12 0 0,0-1.5,2.598076211353316\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n</a>\n\n<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr\">\n<svg\n   class=\"licence\"\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://web.resource.org/cc/\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"80\"\n   height=\"15\"\n   id=\"svg2279\"\n   sodipodi:version=\"0.32\"\n   inkscape:version=\"0.45+devel\"\n   version=\"1.0\"\n   sodipodi:docname=\"by-nc-nd.svg\"\n   inkscape:output_extension=\"org.inkscape.output.svg.inkscape\">\n  <defs\n     id=\"defs2281\">\n    <clipPath\n       clipPathUnits=\"userSpaceOnUse\"\n       id=\"clipPath3442\">\n      <rect\n         style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n         id=\"rect3444\"\n         width=\"20.614058\"\n         height=\"12.483703\"\n         x=\"171.99832\"\n         y=\"239.1203\" />\n    </clipPath>\n  </defs>\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#999999\"\n     borderopacity=\"1\"\n     gridtolerance=\"10000\"\n     guidetolerance=\"10\"\n     objecttolerance=\"10\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"10.5125\"\n     inkscape:cx=\"40\"\n     inkscape:cy=\"7.5\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n     width=\"80px\"\n     height=\"15px\"\n     showborder=\"true\"\n     inkscape:showpageshadow=\"false\"\n     inkscape:window-width=\"935\"\n     inkscape:window-height=\"624\"\n     inkscape:window-x=\"50\"\n     inkscape:window-y=\"160\" />\n  <metadata\n     id=\"metadata2284\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\">\n    <g\n       id=\"BY-NC-ND\"\n       transform=\"matrix(0.9875019,0,0,0.9333518,-323.90064,-411.87964)\">\n      <g\n         id=\"g3783\"\n         transform=\"translate(158,204)\">\n        <rect\n           style=\"fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.04161763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n           id=\"rect3785\"\n           width=\"80\"\n           height=\"15\"\n           x=\"170.5\"\n           y=\"237.86218\" />\n        <rect\n           y=\"239.36218\"\n           x=\"172\"\n           height=\"12\"\n           width=\"77\"\n           id=\"rect3787\"\n           style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n        <path\n           style=\"fill:#abb1aa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46913578\"\n           d=\"M 171.99996,239.37505 L 171.99996,251.37505 L 192.33474,251.37505 C 193.64339,249.62474 194.52652,247.59057 194.52652,245.37505 C 194.52652,243.17431 193.65859,241.1179 192.36599,239.37505 L 171.99996,239.37505 z\"\n           id=\"path3789\"\n           sodipodi:nodetypes=\"cccscc\" />\n        <g\n           id=\"g3791\"\n           transform=\"matrix(0.9612533,0,0,0.9612533,6.8341566,9.5069994)\"\n           clip-path=\"url(#clipPath3442)\">\n          <path\n             id=\"path3793\"\n             cx=\"296.35416\"\n             ry=\"22.939548\"\n             cy=\"264.3577\"\n             type=\"arc\"\n             rx=\"22.939548\"\n             d=\"M 190.06417,245.36206 C 190.06667,249.25405 186.91326,252.41072 183.02153,252.41323 C 179.12979,252.41572 175.97262,249.26256 175.97036,245.3706 C 175.97036,245.36783 175.97036,245.36507 175.97036,245.36206 C 175.9681,241.47007 179.12126,238.3134 183.013,238.31113 C 186.90524,238.30864 190.06191,241.46181 190.06417,245.3538 C 190.06417,245.35628 190.06417,245.35929 190.06417,245.36206 z\"\n             style=\"opacity:1;fill:#ffffff\" />\n          <path\n             d=\"M 188.74576,239.62226 C 190.30843,241.18492 191.08988,243.09869 191.08988,245.36206 C 191.08988,247.62592 190.32197,249.51913 188.78615,251.04165 C 187.15627,252.64521 185.22995,253.44672 183.00722,253.44672 C 180.81132,253.44672 178.91837,252.65172 177.32887,251.06174 C 175.73912,249.47198 174.94436,247.57226 174.94436,245.36206 C 174.94436,243.15235 175.73912,241.23908 177.32887,239.62226 C 178.87799,238.0591 180.77094,237.27764 183.00722,237.27764 C 185.2706,237.27764 187.18312,238.05909 188.74576,239.62226 z M 178.38093,240.67355 C 177.05978,242.008 176.39945,243.57116 176.39945,245.36429 C 176.39945,247.15694 177.05326,248.70682 178.36062,250.01393 C 179.66822,251.32153 181.22487,251.97509 183.03105,251.97509 C 184.83724,251.97509 186.40716,251.31502 187.74161,249.99412 C 189.0086,248.76725 189.64234,247.22467 189.64234,245.36429 C 189.64234,243.51799 188.99831,241.95084 187.71101,240.66354 C 186.42396,239.37649 184.86406,238.7327 183.03105,238.7327 C 181.19804,238.73271 179.64767,239.37975 178.38093,240.67355 z M 181.85761,244.57559 C 181.65573,244.13545 181.35354,243.91525 180.95051,243.91525 C 180.23802,243.91525 179.8819,244.39501 179.8819,245.35404 C 179.8819,246.31328 180.23802,246.79255 180.95051,246.79255 C 181.421,246.79255 181.75705,246.55908 181.95869,246.09111 L 182.94629,246.61701 C 182.47555,247.45339 181.76934,247.87168 180.82763,247.87168 C 180.10136,247.87168 179.51953,247.64899 179.08265,247.20409 C 178.64502,246.7587 178.42684,246.14477 178.42684,245.36206 C 178.42684,244.59313 178.65204,243.98271 179.10271,243.53056 C 179.55338,243.07838 180.11463,242.8524 180.7875,242.8524 C 181.78288,242.8524 182.49561,243.24465 182.92647,244.02835 L 181.85761,244.57559 z M 186.50398,244.57559 C 186.30184,244.13545 186.00567,243.91525 185.61517,243.91525 C 184.88839,243.91525 184.52474,244.39501 184.52474,245.35404 C 184.52474,246.31328 184.88839,246.79255 185.61517,246.79255 C 186.08642,246.79255 186.41644,246.55908 186.6048,246.09111 L 187.61447,246.61701 C 187.14448,247.45339 186.43926,247.87168 185.49931,247.87168 C 184.77403,247.87168 184.19346,247.64899 183.75683,247.20409 C 183.32096,246.7587 183.10254,246.14477 183.10254,245.36206 C 183.10254,244.59313 183.32422,243.98271 183.76737,243.53056 C 184.21026,243.07838 184.77404,242.8524 185.4592,242.8524 C 186.45282,242.8524 187.16455,243.24465 187.5939,244.02835 L 186.50398,244.57559 z\"\n             id=\"path3795\"\n             style=\"opacity:1\" />\n        </g>\n      </g>\n      <path\n         id=\"text3797\"\n         d=\"M 357.4197,448.68503 C 357.66518,448.68504 357.85131,448.63146 357.9781,448.52428 C 358.10488,448.41712 358.16827,448.25905 358.16828,448.05008 C 358.16827,447.84378 358.10488,447.68705 357.9781,447.57988 C 357.85131,447.47004 357.66518,447.41512 357.4197,447.41511 L 356.55784,447.41511 L 356.55784,448.68503 L 357.4197,448.68503 M 357.4723,451.30929 C 357.78522,451.30929 358.0199,451.24364 358.17637,451.11236 C 358.33552,450.98109 358.4151,450.78283 358.4151,450.51759 C 358.4151,450.25771 358.33686,450.06347 358.18041,449.93488 C 358.02396,449.80359 357.78792,449.73796 357.4723,449.73795 L 356.55784,449.73795 L 356.55784,451.30929 L 357.4723,451.30929 M 358.92089,449.15122 C 359.25538,449.24767 359.51434,449.42583 359.69779,449.68571 C 359.88121,449.94559 359.97293,450.26441 359.97294,450.64217 C 359.97293,451.22087 359.776,451.65222 359.38217,451.93621 C 358.98833,452.2202 358.38947,452.36219 357.5856,452.36219 L 355.00001,452.36219 L 355.00001,446.3622 L 357.33878,446.3622 C 358.17771,446.36221 358.78466,446.48813 359.15962,446.73996 C 359.53727,446.99181 359.7261,447.39502 359.7261,447.9496 C 359.7261,448.24164 359.65732,448.4908 359.51975,448.69709 C 359.38217,448.90072 359.18255,449.05209 358.92089,449.15122 M 359.83746,446.3622 L 361.54096,446.3622 L 362.91671,448.50018 L 364.29245,446.3622 L 366,446.3622 L 363.69764,449.8344 L 363.69764,452.36219 L 362.13982,452.36219 L 362.13982,449.8344 L 359.83746,446.3622 M 365.15837,449.40842 L 367.69946,449.40842 L 367.69946,450.57787 L 365.15837,450.57787 L 365.15837,449.40842 M 368.9174,446.3622 L 370.65732,446.3622 L 372.85447,450.47741 L 372.85447,446.3622 L 374.33138,446.3622 L 374.33138,452.36219 L 372.59146,452.36219 L 370.3943,448.24699 L 370.3943,452.36219 L 368.9174,452.36219 L 368.9174,446.3622 M 380.65173,452.03266 C 380.36579,452.18002 380.0677,452.2912 379.75749,452.36622 C 379.44727,452.44123 379.12357,452.47875 378.78638,452.47875 C 377.78019,452.47875 376.98307,452.20011 376.395,451.64284 C 375.80693,451.08289 375.5129,450.32469 375.5129,449.36823 C 375.5129,448.40909 375.80693,447.65089 376.395,447.09361 C 376.98307,446.53367 377.78019,446.2537 378.78638,446.25369 C 379.12357,446.2537 379.44727,446.29121 379.75749,446.36621 C 380.0677,446.44124 380.36579,446.55243 380.65173,446.69977 L 380.65173,447.94157 C 380.36309,447.746 380.0785,447.60266 379.79796,447.51156 C 379.5174,447.42047 379.22203,447.37493 378.91181,447.37493 C 378.35611,447.37493 377.91911,447.55175 377.6008,447.9054 C 377.28249,448.25905 377.12333,448.74666 377.12333,449.36823 C 377.12333,449.98712 377.28249,450.47339 377.6008,450.82703 C 377.91911,451.18069 378.35611,451.35751 378.91181,451.35751 C 379.22203,451.35751 379.5174,451.31197 379.79796,451.22087 C 380.0785,451.12978 380.36309,450.98644 380.65173,450.79086 L 380.65173,452.03266 M 381.82921,449.40842 L 384.3703,449.40842 L 384.3703,450.57787 L 381.82921,450.57787 L 381.82921,449.40842 M 385.58824,446.3622 L 387.32815,446.3622 L 389.52531,450.47741 L 389.52531,446.3622 L 391.00222,446.3622 L 391.00222,452.36219 L 389.26229,452.36219 L 387.06515,448.24699 L 387.06515,452.36219 L 385.58824,452.36219 L 385.58824,446.3622 M 394.08956,447.53165 L 394.08956,451.19274 L 394.64795,451.19274 C 395.28456,451.19274 395.77013,451.03602 396.10462,450.72255 C 396.44181,450.40909 396.61041,449.95363 396.61042,449.35617 C 396.61041,448.7614 396.44317,448.30862 396.10867,447.99783 C 395.77417,447.68705 395.28726,447.53166 394.64795,447.53165 L 394.08956,447.53165 M 392.53172,446.3622 L 394.17453,446.3622 C 395.09169,446.36221 395.77417,446.42784 396.22197,446.55912 C 396.67245,446.68772 397.0582,446.90742 397.37922,447.2182 C 397.66246,447.48879 397.87286,447.80092 398.01044,448.15456 C 398.14801,448.50822 398.2168,448.90875 398.21681,449.35617 C 398.2168,449.80896 398.14801,450.21351 398.01044,450.56983 C 397.87286,450.92349 397.66246,451.23561 397.37922,451.50621 C 397.05551,451.81699 396.66706,452.03802 396.21387,452.1693 C 395.76069,452.29789 395.0809,452.36219 394.17453,452.36219 L 392.53172,452.36219 L 392.53172,446.3622\"\n         style=\"font-size:8.25858784px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:'Bitstream Vera Sans'\" />\n    </g>\n  </g>\n</svg>\n</a>",
@@ -1364,9 +1723,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "ECE1"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "<div class=\"fiche\">\n\n<p class=\"titre\">{{Titre}}</p>\n\n<span class=\"objets\"><p>{{Objets}}</p></span>\n\n<p>{{Condition}}</p>\n\n<p>{{^Équivalence}}\\(\\Downarrow\\){{/Équivalence}}{{#Équivalence}}\\(\\Updownarrow\\){{/Équivalence}}</p>\n\n<p>{{Conclusion}}</p>\n\n{{#Conclusion alternative}}\n\n\t<p>ou</p>\n\n\t<p>{{Conclusion alternative}}</p>\n\n{{/Conclusion alternative}}\n\n</div>\n\n<a href=\"https://wiki.echos.systems#{{Tiddler associé}}:Anki\">\n<svg class=\"echologo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 30\"  height=\"2em\" version=\"1.1\">\n\t\t\t\t\t<g transform=\"translate(13.8,9)\" stroke-width=\"0\" fill=\"white\">\n\t\t\t\t\t\t<circle cx=\"1.2\" cy=\"6\" r=\"15\" fill=\"rgb(137,211,158)\" opacity=\"1\"/>\n\t\t\t\t\t\t<circle cx=\"0\" cy=\"0\" r=\"2\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,-2.598076211353316A3,3 0 0,0-2.598076211353316,1.5A5,5 0 0,1-1.5,-6.840716898472603A3,3 0 0,0-1.5,-2.598076211353316\"/>\n\t\t\t\t\t\t<path d=\"M0,-3A3,3 0 0,1 3,0A6,6 0 0,1 11.485281374238571,0A8,8 0 0,0 0,-3\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,2.598076211353316A3,3 0 0,0 2.598076211353316,1.5A13,13 0 0,1-1.5,19.56863895983046A12,12 0 0,0-1.5,2.598076211353316\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n</a>\n\n<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr\">\n<svg\n   class=\"licence\"\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://web.resource.org/cc/\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"80\"\n   height=\"15\"\n   id=\"svg2279\"\n   sodipodi:version=\"0.32\"\n   inkscape:version=\"0.45+devel\"\n   version=\"1.0\"\n   sodipodi:docname=\"by-nc-nd.svg\"\n   inkscape:output_extension=\"org.inkscape.output.svg.inkscape\">\n  <defs\n     id=\"defs2281\">\n    <clipPath\n       clipPathUnits=\"userSpaceOnUse\"\n       id=\"clipPath3442\">\n      <rect\n         style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n         id=\"rect3444\"\n         width=\"20.614058\"\n         height=\"12.483703\"\n         x=\"171.99832\"\n         y=\"239.1203\" />\n    </clipPath>\n  </defs>\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#999999\"\n     borderopacity=\"1\"\n     gridtolerance=\"10000\"\n     guidetolerance=\"10\"\n     objecttolerance=\"10\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"10.5125\"\n     inkscape:cx=\"40\"\n     inkscape:cy=\"7.5\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n     width=\"80px\"\n     height=\"15px\"\n     showborder=\"true\"\n     inkscape:showpageshadow=\"false\"\n     inkscape:window-width=\"935\"\n     inkscape:window-height=\"624\"\n     inkscape:window-x=\"50\"\n     inkscape:window-y=\"160\" />\n  <metadata\n     id=\"metadata2284\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\">\n    <g\n       id=\"BY-NC-ND\"\n       transform=\"matrix(0.9875019,0,0,0.9333518,-323.90064,-411.87964)\">\n      <g\n         id=\"g3783\"\n         transform=\"translate(158,204)\">\n        <rect\n           style=\"fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.04161763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n           id=\"rect3785\"\n           width=\"80\"\n           height=\"15\"\n           x=\"170.5\"\n           y=\"237.86218\" />\n        <rect\n           y=\"239.36218\"\n           x=\"172\"\n           height=\"12\"\n           width=\"77\"\n           id=\"rect3787\"\n           style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n        <path\n           style=\"fill:#abb1aa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46913578\"\n           d=\"M 171.99996,239.37505 L 171.99996,251.37505 L 192.33474,251.37505 C 193.64339,249.62474 194.52652,247.59057 194.52652,245.37505 C 194.52652,243.17431 193.65859,241.1179 192.36599,239.37505 L 171.99996,239.37505 z\"\n           id=\"path3789\"\n           sodipodi:nodetypes=\"cccscc\" />\n        <g\n           id=\"g3791\"\n           transform=\"matrix(0.9612533,0,0,0.9612533,6.8341566,9.5069994)\"\n           clip-path=\"url(#clipPath3442)\">\n          <path\n             id=\"path3793\"\n             cx=\"296.35416\"\n             ry=\"22.939548\"\n             cy=\"264.3577\"\n             type=\"arc\"\n             rx=\"22.939548\"\n             d=\"M 190.06417,245.36206 C 190.06667,249.25405 186.91326,252.41072 183.02153,252.41323 C 179.12979,252.41572 175.97262,249.26256 175.97036,245.3706 C 175.97036,245.36783 175.97036,245.36507 175.97036,245.36206 C 175.9681,241.47007 179.12126,238.3134 183.013,238.31113 C 186.90524,238.30864 190.06191,241.46181 190.06417,245.3538 C 190.06417,245.35628 190.06417,245.35929 190.06417,245.36206 z\"\n             style=\"opacity:1;fill:#ffffff\" />\n          <path\n             d=\"M 188.74576,239.62226 C 190.30843,241.18492 191.08988,243.09869 191.08988,245.36206 C 191.08988,247.62592 190.32197,249.51913 188.78615,251.04165 C 187.15627,252.64521 185.22995,253.44672 183.00722,253.44672 C 180.81132,253.44672 178.91837,252.65172 177.32887,251.06174 C 175.73912,249.47198 174.94436,247.57226 174.94436,245.36206 C 174.94436,243.15235 175.73912,241.23908 177.32887,239.62226 C 178.87799,238.0591 180.77094,237.27764 183.00722,237.27764 C 185.2706,237.27764 187.18312,238.05909 188.74576,239.62226 z M 178.38093,240.67355 C 177.05978,242.008 176.39945,243.57116 176.39945,245.36429 C 176.39945,247.15694 177.05326,248.70682 178.36062,250.01393 C 179.66822,251.32153 181.22487,251.97509 183.03105,251.97509 C 184.83724,251.97509 186.40716,251.31502 187.74161,249.99412 C 189.0086,248.76725 189.64234,247.22467 189.64234,245.36429 C 189.64234,243.51799 188.99831,241.95084 187.71101,240.66354 C 186.42396,239.37649 184.86406,238.7327 183.03105,238.7327 C 181.19804,238.73271 179.64767,239.37975 178.38093,240.67355 z M 181.85761,244.57559 C 181.65573,244.13545 181.35354,243.91525 180.95051,243.91525 C 180.23802,243.91525 179.8819,244.39501 179.8819,245.35404 C 179.8819,246.31328 180.23802,246.79255 180.95051,246.79255 C 181.421,246.79255 181.75705,246.55908 181.95869,246.09111 L 182.94629,246.61701 C 182.47555,247.45339 181.76934,247.87168 180.82763,247.87168 C 180.10136,247.87168 179.51953,247.64899 179.08265,247.20409 C 178.64502,246.7587 178.42684,246.14477 178.42684,245.36206 C 178.42684,244.59313 178.65204,243.98271 179.10271,243.53056 C 179.55338,243.07838 180.11463,242.8524 180.7875,242.8524 C 181.78288,242.8524 182.49561,243.24465 182.92647,244.02835 L 181.85761,244.57559 z M 186.50398,244.57559 C 186.30184,244.13545 186.00567,243.91525 185.61517,243.91525 C 184.88839,243.91525 184.52474,244.39501 184.52474,245.35404 C 184.52474,246.31328 184.88839,246.79255 185.61517,246.79255 C 186.08642,246.79255 186.41644,246.55908 186.6048,246.09111 L 187.61447,246.61701 C 187.14448,247.45339 186.43926,247.87168 185.49931,247.87168 C 184.77403,247.87168 184.19346,247.64899 183.75683,247.20409 C 183.32096,246.7587 183.10254,246.14477 183.10254,245.36206 C 183.10254,244.59313 183.32422,243.98271 183.76737,243.53056 C 184.21026,243.07838 184.77404,242.8524 185.4592,242.8524 C 186.45282,242.8524 187.16455,243.24465 187.5939,244.02835 L 186.50398,244.57559 z\"\n             id=\"path3795\"\n             style=\"opacity:1\" />\n        </g>\n      </g>\n      <path\n         id=\"text3797\"\n         d=\"M 357.4197,448.68503 C 357.66518,448.68504 357.85131,448.63146 357.9781,448.52428 C 358.10488,448.41712 358.16827,448.25905 358.16828,448.05008 C 358.16827,447.84378 358.10488,447.68705 357.9781,447.57988 C 357.85131,447.47004 357.66518,447.41512 357.4197,447.41511 L 356.55784,447.41511 L 356.55784,448.68503 L 357.4197,448.68503 M 357.4723,451.30929 C 357.78522,451.30929 358.0199,451.24364 358.17637,451.11236 C 358.33552,450.98109 358.4151,450.78283 358.4151,450.51759 C 358.4151,450.25771 358.33686,450.06347 358.18041,449.93488 C 358.02396,449.80359 357.78792,449.73796 357.4723,449.73795 L 356.55784,449.73795 L 356.55784,451.30929 L 357.4723,451.30929 M 358.92089,449.15122 C 359.25538,449.24767 359.51434,449.42583 359.69779,449.68571 C 359.88121,449.94559 359.97293,450.26441 359.97294,450.64217 C 359.97293,451.22087 359.776,451.65222 359.38217,451.93621 C 358.98833,452.2202 358.38947,452.36219 357.5856,452.36219 L 355.00001,452.36219 L 355.00001,446.3622 L 357.33878,446.3622 C 358.17771,446.36221 358.78466,446.48813 359.15962,446.73996 C 359.53727,446.99181 359.7261,447.39502 359.7261,447.9496 C 359.7261,448.24164 359.65732,448.4908 359.51975,448.69709 C 359.38217,448.90072 359.18255,449.05209 358.92089,449.15122 M 359.83746,446.3622 L 361.54096,446.3622 L 362.91671,448.50018 L 364.29245,446.3622 L 366,446.3622 L 363.69764,449.8344 L 363.69764,452.36219 L 362.13982,452.36219 L 362.13982,449.8344 L 359.83746,446.3622 M 365.15837,449.40842 L 367.69946,449.40842 L 367.69946,450.57787 L 365.15837,450.57787 L 365.15837,449.40842 M 368.9174,446.3622 L 370.65732,446.3622 L 372.85447,450.47741 L 372.85447,446.3622 L 374.33138,446.3622 L 374.33138,452.36219 L 372.59146,452.36219 L 370.3943,448.24699 L 370.3943,452.36219 L 368.9174,452.36219 L 368.9174,446.3622 M 380.65173,452.03266 C 380.36579,452.18002 380.0677,452.2912 379.75749,452.36622 C 379.44727,452.44123 379.12357,452.47875 378.78638,452.47875 C 377.78019,452.47875 376.98307,452.20011 376.395,451.64284 C 375.80693,451.08289 375.5129,450.32469 375.5129,449.36823 C 375.5129,448.40909 375.80693,447.65089 376.395,447.09361 C 376.98307,446.53367 377.78019,446.2537 378.78638,446.25369 C 379.12357,446.2537 379.44727,446.29121 379.75749,446.36621 C 380.0677,446.44124 380.36579,446.55243 380.65173,446.69977 L 380.65173,447.94157 C 380.36309,447.746 380.0785,447.60266 379.79796,447.51156 C 379.5174,447.42047 379.22203,447.37493 378.91181,447.37493 C 378.35611,447.37493 377.91911,447.55175 377.6008,447.9054 C 377.28249,448.25905 377.12333,448.74666 377.12333,449.36823 C 377.12333,449.98712 377.28249,450.47339 377.6008,450.82703 C 377.91911,451.18069 378.35611,451.35751 378.91181,451.35751 C 379.22203,451.35751 379.5174,451.31197 379.79796,451.22087 C 380.0785,451.12978 380.36309,450.98644 380.65173,450.79086 L 380.65173,452.03266 M 381.82921,449.40842 L 384.3703,449.40842 L 384.3703,450.57787 L 381.82921,450.57787 L 381.82921,449.40842 M 385.58824,446.3622 L 387.32815,446.3622 L 389.52531,450.47741 L 389.52531,446.3622 L 391.00222,446.3622 L 391.00222,452.36219 L 389.26229,452.36219 L 387.06515,448.24699 L 387.06515,452.36219 L 385.58824,452.36219 L 385.58824,446.3622 M 394.08956,447.53165 L 394.08956,451.19274 L 394.64795,451.19274 C 395.28456,451.19274 395.77013,451.03602 396.10462,450.72255 C 396.44181,450.40909 396.61041,449.95363 396.61042,449.35617 C 396.61041,448.7614 396.44317,448.30862 396.10867,447.99783 C 395.77417,447.68705 395.28726,447.53166 394.64795,447.53165 L 394.08956,447.53165 M 392.53172,446.3622 L 394.17453,446.3622 C 395.09169,446.36221 395.77417,446.42784 396.22197,446.55912 C 396.67245,446.68772 397.0582,446.90742 397.37922,447.2182 C 397.66246,447.48879 397.87286,447.80092 398.01044,448.15456 C 398.14801,448.50822 398.2168,448.90875 398.21681,449.35617 C 398.2168,449.80896 398.14801,450.21351 398.01044,450.56983 C 397.87286,450.92349 397.66246,451.23561 397.37922,451.50621 C 397.05551,451.81699 396.66706,452.03802 396.21387,452.1693 C 395.76069,452.29789 395.0809,452.36219 394.17453,452.36219 L 392.53172,452.36219 L 392.53172,446.3622\"\n         style=\"font-size:8.25858784px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:'Bitstream Vera Sans'\" />\n    </g>\n  </g>\n</svg>\n</a>",
@@ -1414,6 +1771,77 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "df61a553-6781-11eb-8ef3-b3659b522030",
+            "css": ".card {\n  font-family: arial;\n  font-size: 14px;\n  text-align: center;\n  color: black;\n  background-color: white;\n  align: center\n}\n\n.titre{\n  font-size: 16px;\n}\n\n.objets{\n  font-size: 10px;\n}\n\n.fiche {\n  position:absolute;\n  width: calc(100% - 6em);\n  max-height: calc(100% - 7em);\n  left: 1em;\n  top: 1em;\n  overflow-x: auto;\n  z-index: 0;\n  border: 4px solid #89D39D;\n  border-radius: 8px;\n  padding: 1em 1em 1em 1em;\n  margin: 1em\n}\n\n.echologo {\n  height:3em;\n  z-index: 1;\n  position:absolute;\n  left:10px;\n  top:19px\n}\n\n.licence {\n  position:absolute;\n  right: 2em;\n  bottom: 1em\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Tiddler associé",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "name": "Titre",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "name": "Objets",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "name": "Texte",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Texte à trous",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 3,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"fiche\">\n\n<p class=\"titre\">{{Titre}}</p>\n\n<span class=\"objets\"><p>{{Objets}}</p></span>\n\n<p>{{cloze:Texte}}</p>\n\n</div>\n\n<a href=\"https://wiki.echos.systems#{{Tiddler associé}}:Anki\">\n<svg class=\"echologo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 30\"  height=\"2em\" version=\"1.1\">\n\t\t\t\t\t<g transform=\"translate(13.8,9)\" stroke-width=\"0\" fill=\"white\">\n\t\t\t\t\t\t<circle cx=\"1.2\" cy=\"6\" r=\"15\" fill=\"rgb(137,211,158)\" opacity=\"1\"/>\n\t\t\t\t\t\t<circle cx=\"0\" cy=\"0\" r=\"2\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,-2.598076211353316A3,3 0 0,0-2.598076211353316,1.5A5,5 0 0,1-1.5,-6.840716898472603A3,3 0 0,0-1.5,-2.598076211353316\"/>\n\t\t\t\t\t\t<path d=\"M0,-3A3,3 0 0,1 3,0A6,6 0 0,1 11.485281374238571,0A8,8 0 0,0 0,-3\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,2.598076211353316A3,3 0 0,0 2.598076211353316,1.5A13,13 0 0,1-1.5,19.56863895983046A12,12 0 0,0-1.5,2.598076211353316\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n</a>\n\n<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr\">\n<svg\n   class=\"licence\"\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://web.resource.org/cc/\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"80\"\n   height=\"15\"\n   id=\"svg2279\"\n   sodipodi:version=\"0.32\"\n   inkscape:version=\"0.45+devel\"\n   version=\"1.0\"\n   sodipodi:docname=\"by-nc-nd.svg\"\n   inkscape:output_extension=\"org.inkscape.output.svg.inkscape\">\n  <defs\n     id=\"defs2281\">\n    <clipPath\n       clipPathUnits=\"userSpaceOnUse\"\n       id=\"clipPath3442\">\n      <rect\n         style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n         id=\"rect3444\"\n         width=\"20.614058\"\n         height=\"12.483703\"\n         x=\"171.99832\"\n         y=\"239.1203\" />\n    </clipPath>\n  </defs>\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#999999\"\n     borderopacity=\"1\"\n     gridtolerance=\"10000\"\n     guidetolerance=\"10\"\n     objecttolerance=\"10\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"10.5125\"\n     inkscape:cx=\"40\"\n     inkscape:cy=\"7.5\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n     width=\"80px\"\n     height=\"15px\"\n     showborder=\"true\"\n     inkscape:showpageshadow=\"false\"\n     inkscape:window-width=\"935\"\n     inkscape:window-height=\"624\"\n     inkscape:window-x=\"50\"\n     inkscape:window-y=\"160\" />\n  <metadata\n     id=\"metadata2284\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\">\n    <g\n       id=\"BY-NC-ND\"\n       transform=\"matrix(0.9875019,0,0,0.9333518,-323.90064,-411.87964)\">\n      <g\n         id=\"g3783\"\n         transform=\"translate(158,204)\">\n        <rect\n           style=\"fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.04161763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n           id=\"rect3785\"\n           width=\"80\"\n           height=\"15\"\n           x=\"170.5\"\n           y=\"237.86218\" />\n        <rect\n           y=\"239.36218\"\n           x=\"172\"\n           height=\"12\"\n           width=\"77\"\n           id=\"rect3787\"\n           style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n        <path\n           style=\"fill:#abb1aa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46913578\"\n           d=\"M 171.99996,239.37505 L 171.99996,251.37505 L 192.33474,251.37505 C 193.64339,249.62474 194.52652,247.59057 194.52652,245.37505 C 194.52652,243.17431 193.65859,241.1179 192.36599,239.37505 L 171.99996,239.37505 z\"\n           id=\"path3789\"\n           sodipodi:nodetypes=\"cccscc\" />\n        <g\n           id=\"g3791\"\n           transform=\"matrix(0.9612533,0,0,0.9612533,6.8341566,9.5069994)\"\n           clip-path=\"url(#clipPath3442)\">\n          <path\n             id=\"path3793\"\n             cx=\"296.35416\"\n             ry=\"22.939548\"\n             cy=\"264.3577\"\n             type=\"arc\"\n             rx=\"22.939548\"\n             d=\"M 190.06417,245.36206 C 190.06667,249.25405 186.91326,252.41072 183.02153,252.41323 C 179.12979,252.41572 175.97262,249.26256 175.97036,245.3706 C 175.97036,245.36783 175.97036,245.36507 175.97036,245.36206 C 175.9681,241.47007 179.12126,238.3134 183.013,238.31113 C 186.90524,238.30864 190.06191,241.46181 190.06417,245.3538 C 190.06417,245.35628 190.06417,245.35929 190.06417,245.36206 z\"\n             style=\"opacity:1;fill:#ffffff\" />\n          <path\n             d=\"M 188.74576,239.62226 C 190.30843,241.18492 191.08988,243.09869 191.08988,245.36206 C 191.08988,247.62592 190.32197,249.51913 188.78615,251.04165 C 187.15627,252.64521 185.22995,253.44672 183.00722,253.44672 C 180.81132,253.44672 178.91837,252.65172 177.32887,251.06174 C 175.73912,249.47198 174.94436,247.57226 174.94436,245.36206 C 174.94436,243.15235 175.73912,241.23908 177.32887,239.62226 C 178.87799,238.0591 180.77094,237.27764 183.00722,237.27764 C 185.2706,237.27764 187.18312,238.05909 188.74576,239.62226 z M 178.38093,240.67355 C 177.05978,242.008 176.39945,243.57116 176.39945,245.36429 C 176.39945,247.15694 177.05326,248.70682 178.36062,250.01393 C 179.66822,251.32153 181.22487,251.97509 183.03105,251.97509 C 184.83724,251.97509 186.40716,251.31502 187.74161,249.99412 C 189.0086,248.76725 189.64234,247.22467 189.64234,245.36429 C 189.64234,243.51799 188.99831,241.95084 187.71101,240.66354 C 186.42396,239.37649 184.86406,238.7327 183.03105,238.7327 C 181.19804,238.73271 179.64767,239.37975 178.38093,240.67355 z M 181.85761,244.57559 C 181.65573,244.13545 181.35354,243.91525 180.95051,243.91525 C 180.23802,243.91525 179.8819,244.39501 179.8819,245.35404 C 179.8819,246.31328 180.23802,246.79255 180.95051,246.79255 C 181.421,246.79255 181.75705,246.55908 181.95869,246.09111 L 182.94629,246.61701 C 182.47555,247.45339 181.76934,247.87168 180.82763,247.87168 C 180.10136,247.87168 179.51953,247.64899 179.08265,247.20409 C 178.64502,246.7587 178.42684,246.14477 178.42684,245.36206 C 178.42684,244.59313 178.65204,243.98271 179.10271,243.53056 C 179.55338,243.07838 180.11463,242.8524 180.7875,242.8524 C 181.78288,242.8524 182.49561,243.24465 182.92647,244.02835 L 181.85761,244.57559 z M 186.50398,244.57559 C 186.30184,244.13545 186.00567,243.91525 185.61517,243.91525 C 184.88839,243.91525 184.52474,244.39501 184.52474,245.35404 C 184.52474,246.31328 184.88839,246.79255 185.61517,246.79255 C 186.08642,246.79255 186.41644,246.55908 186.6048,246.09111 L 187.61447,246.61701 C 187.14448,247.45339 186.43926,247.87168 185.49931,247.87168 C 184.77403,247.87168 184.19346,247.64899 183.75683,247.20409 C 183.32096,246.7587 183.10254,246.14477 183.10254,245.36206 C 183.10254,244.59313 183.32422,243.98271 183.76737,243.53056 C 184.21026,243.07838 184.77404,242.8524 185.4592,242.8524 C 186.45282,242.8524 187.16455,243.24465 187.5939,244.02835 L 186.50398,244.57559 z\"\n             id=\"path3795\"\n             style=\"opacity:1\" />\n        </g>\n      </g>\n      <path\n         id=\"text3797\"\n         d=\"M 357.4197,448.68503 C 357.66518,448.68504 357.85131,448.63146 357.9781,448.52428 C 358.10488,448.41712 358.16827,448.25905 358.16828,448.05008 C 358.16827,447.84378 358.10488,447.68705 357.9781,447.57988 C 357.85131,447.47004 357.66518,447.41512 357.4197,447.41511 L 356.55784,447.41511 L 356.55784,448.68503 L 357.4197,448.68503 M 357.4723,451.30929 C 357.78522,451.30929 358.0199,451.24364 358.17637,451.11236 C 358.33552,450.98109 358.4151,450.78283 358.4151,450.51759 C 358.4151,450.25771 358.33686,450.06347 358.18041,449.93488 C 358.02396,449.80359 357.78792,449.73796 357.4723,449.73795 L 356.55784,449.73795 L 356.55784,451.30929 L 357.4723,451.30929 M 358.92089,449.15122 C 359.25538,449.24767 359.51434,449.42583 359.69779,449.68571 C 359.88121,449.94559 359.97293,450.26441 359.97294,450.64217 C 359.97293,451.22087 359.776,451.65222 359.38217,451.93621 C 358.98833,452.2202 358.38947,452.36219 357.5856,452.36219 L 355.00001,452.36219 L 355.00001,446.3622 L 357.33878,446.3622 C 358.17771,446.36221 358.78466,446.48813 359.15962,446.73996 C 359.53727,446.99181 359.7261,447.39502 359.7261,447.9496 C 359.7261,448.24164 359.65732,448.4908 359.51975,448.69709 C 359.38217,448.90072 359.18255,449.05209 358.92089,449.15122 M 359.83746,446.3622 L 361.54096,446.3622 L 362.91671,448.50018 L 364.29245,446.3622 L 366,446.3622 L 363.69764,449.8344 L 363.69764,452.36219 L 362.13982,452.36219 L 362.13982,449.8344 L 359.83746,446.3622 M 365.15837,449.40842 L 367.69946,449.40842 L 367.69946,450.57787 L 365.15837,450.57787 L 365.15837,449.40842 M 368.9174,446.3622 L 370.65732,446.3622 L 372.85447,450.47741 L 372.85447,446.3622 L 374.33138,446.3622 L 374.33138,452.36219 L 372.59146,452.36219 L 370.3943,448.24699 L 370.3943,452.36219 L 368.9174,452.36219 L 368.9174,446.3622 M 380.65173,452.03266 C 380.36579,452.18002 380.0677,452.2912 379.75749,452.36622 C 379.44727,452.44123 379.12357,452.47875 378.78638,452.47875 C 377.78019,452.47875 376.98307,452.20011 376.395,451.64284 C 375.80693,451.08289 375.5129,450.32469 375.5129,449.36823 C 375.5129,448.40909 375.80693,447.65089 376.395,447.09361 C 376.98307,446.53367 377.78019,446.2537 378.78638,446.25369 C 379.12357,446.2537 379.44727,446.29121 379.75749,446.36621 C 380.0677,446.44124 380.36579,446.55243 380.65173,446.69977 L 380.65173,447.94157 C 380.36309,447.746 380.0785,447.60266 379.79796,447.51156 C 379.5174,447.42047 379.22203,447.37493 378.91181,447.37493 C 378.35611,447.37493 377.91911,447.55175 377.6008,447.9054 C 377.28249,448.25905 377.12333,448.74666 377.12333,449.36823 C 377.12333,449.98712 377.28249,450.47339 377.6008,450.82703 C 377.91911,451.18069 378.35611,451.35751 378.91181,451.35751 C 379.22203,451.35751 379.5174,451.31197 379.79796,451.22087 C 380.0785,451.12978 380.36309,450.98644 380.65173,450.79086 L 380.65173,452.03266 M 381.82921,449.40842 L 384.3703,449.40842 L 384.3703,450.57787 L 381.82921,450.57787 L 381.82921,449.40842 M 385.58824,446.3622 L 387.32815,446.3622 L 389.52531,450.47741 L 389.52531,446.3622 L 391.00222,446.3622 L 391.00222,452.36219 L 389.26229,452.36219 L 387.06515,448.24699 L 387.06515,452.36219 L 385.58824,452.36219 L 385.58824,446.3622 M 394.08956,447.53165 L 394.08956,451.19274 L 394.64795,451.19274 C 395.28456,451.19274 395.77013,451.03602 396.10462,450.72255 C 396.44181,450.40909 396.61041,449.95363 396.61042,449.35617 C 396.61041,448.7614 396.44317,448.30862 396.10867,447.99783 C 395.77417,447.68705 395.28726,447.53166 394.64795,447.53165 L 394.08956,447.53165 M 392.53172,446.3622 L 394.17453,446.3622 C 395.09169,446.36221 395.77417,446.42784 396.22197,446.55912 C 396.67245,446.68772 397.0582,446.90742 397.37922,447.2182 C 397.66246,447.48879 397.87286,447.80092 398.01044,448.15456 C 398.14801,448.50822 398.2168,448.90875 398.21681,449.35617 C 398.2168,449.80896 398.14801,450.21351 398.01044,450.56983 C 397.87286,450.92349 397.66246,451.23561 397.37922,451.50621 C 397.05551,451.81699 396.66706,452.03802 396.21387,452.1693 C 395.76069,452.29789 395.0809,452.36219 394.17453,452.36219 L 392.53172,452.36219 L 392.53172,446.3622\"\n         style=\"font-size:8.25858784px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:'Bitstream Vera Sans'\" />\n    </g>\n  </g>\n</svg>\n</a>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Texte à trous",
+                    "ord": 0,
+                    "qfmt": "<div class=\"fiche\">\n\n<p class=\"titre\">{{Titre}}</p>\n\n<span class=\"objets\"><p>{{Objets}}</p></span>\n\n<p>{{cloze:Texte}}</p>\n\n</div>\n\n<a href=\"https://wiki.echos.systems#{{Tiddler associé}}:Anki\">\n<svg class=\"echologo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 30\"  height=\"2em\" version=\"1.1\">\n\t\t\t\t\t<g transform=\"translate(13.8,9)\" stroke-width=\"0\" fill=\"white\">\n\t\t\t\t\t\t<circle cx=\"1.2\" cy=\"6\" r=\"15\" fill=\"rgb(137,211,158)\" opacity=\"1\"/>\n\t\t\t\t\t\t<circle cx=\"0\" cy=\"0\" r=\"2\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,-2.598076211353316A3,3 0 0,0-2.598076211353316,1.5A5,5 0 0,1-1.5,-6.840716898472603A3,3 0 0,0-1.5,-2.598076211353316\"/>\n\t\t\t\t\t\t<path d=\"M0,-3A3,3 0 0,1 3,0A6,6 0 0,1 11.485281374238571,0A8,8 0 0,0 0,-3\"/>\n\t\t\t\t\t\t<path d=\"M-1.5,2.598076211353316A3,3 0 0,0 2.598076211353316,1.5A13,13 0 0,1-1.5,19.56863895983046A12,12 0 0,0-1.5,2.598076211353316\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n</a>\n\n<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr\">\n<svg\n   class=\"licence\"\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://web.resource.org/cc/\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   width=\"80\"\n   height=\"15\"\n   id=\"svg2279\"\n   sodipodi:version=\"0.32\"\n   inkscape:version=\"0.45+devel\"\n   version=\"1.0\"\n   sodipodi:docname=\"by-nc-nd.svg\"\n   inkscape:output_extension=\"org.inkscape.output.svg.inkscape\">\n  <defs\n     id=\"defs2281\">\n    <clipPath\n       clipPathUnits=\"userSpaceOnUse\"\n       id=\"clipPath3442\">\n      <rect\n         style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n         id=\"rect3444\"\n         width=\"20.614058\"\n         height=\"12.483703\"\n         x=\"171.99832\"\n         y=\"239.1203\" />\n    </clipPath>\n  </defs>\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#999999\"\n     borderopacity=\"1\"\n     gridtolerance=\"10000\"\n     guidetolerance=\"10\"\n     objecttolerance=\"10\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"10.5125\"\n     inkscape:cx=\"40\"\n     inkscape:cy=\"7.5\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n     width=\"80px\"\n     height=\"15px\"\n     showborder=\"true\"\n     inkscape:showpageshadow=\"false\"\n     inkscape:window-width=\"935\"\n     inkscape:window-height=\"624\"\n     inkscape:window-x=\"50\"\n     inkscape:window-y=\"160\" />\n  <metadata\n     id=\"metadata2284\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\">\n    <g\n       id=\"BY-NC-ND\"\n       transform=\"matrix(0.9875019,0,0,0.9333518,-323.90064,-411.87964)\">\n      <g\n         id=\"g3783\"\n         transform=\"translate(158,204)\">\n        <rect\n           style=\"fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.04161763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n           id=\"rect3785\"\n           width=\"80\"\n           height=\"15\"\n           x=\"170.5\"\n           y=\"237.86218\" />\n        <rect\n           y=\"239.36218\"\n           x=\"172\"\n           height=\"12\"\n           width=\"77\"\n           id=\"rect3787\"\n           style=\"fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92243534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n        <path\n           style=\"fill:#abb1aa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46913578\"\n           d=\"M 171.99996,239.37505 L 171.99996,251.37505 L 192.33474,251.37505 C 193.64339,249.62474 194.52652,247.59057 194.52652,245.37505 C 194.52652,243.17431 193.65859,241.1179 192.36599,239.37505 L 171.99996,239.37505 z\"\n           id=\"path3789\"\n           sodipodi:nodetypes=\"cccscc\" />\n        <g\n           id=\"g3791\"\n           transform=\"matrix(0.9612533,0,0,0.9612533,6.8341566,9.5069994)\"\n           clip-path=\"url(#clipPath3442)\">\n          <path\n             id=\"path3793\"\n             cx=\"296.35416\"\n             ry=\"22.939548\"\n             cy=\"264.3577\"\n             type=\"arc\"\n             rx=\"22.939548\"\n             d=\"M 190.06417,245.36206 C 190.06667,249.25405 186.91326,252.41072 183.02153,252.41323 C 179.12979,252.41572 175.97262,249.26256 175.97036,245.3706 C 175.97036,245.36783 175.97036,245.36507 175.97036,245.36206 C 175.9681,241.47007 179.12126,238.3134 183.013,238.31113 C 186.90524,238.30864 190.06191,241.46181 190.06417,245.3538 C 190.06417,245.35628 190.06417,245.35929 190.06417,245.36206 z\"\n             style=\"opacity:1;fill:#ffffff\" />\n          <path\n             d=\"M 188.74576,239.62226 C 190.30843,241.18492 191.08988,243.09869 191.08988,245.36206 C 191.08988,247.62592 190.32197,249.51913 188.78615,251.04165 C 187.15627,252.64521 185.22995,253.44672 183.00722,253.44672 C 180.81132,253.44672 178.91837,252.65172 177.32887,251.06174 C 175.73912,249.47198 174.94436,247.57226 174.94436,245.36206 C 174.94436,243.15235 175.73912,241.23908 177.32887,239.62226 C 178.87799,238.0591 180.77094,237.27764 183.00722,237.27764 C 185.2706,237.27764 187.18312,238.05909 188.74576,239.62226 z M 178.38093,240.67355 C 177.05978,242.008 176.39945,243.57116 176.39945,245.36429 C 176.39945,247.15694 177.05326,248.70682 178.36062,250.01393 C 179.66822,251.32153 181.22487,251.97509 183.03105,251.97509 C 184.83724,251.97509 186.40716,251.31502 187.74161,249.99412 C 189.0086,248.76725 189.64234,247.22467 189.64234,245.36429 C 189.64234,243.51799 188.99831,241.95084 187.71101,240.66354 C 186.42396,239.37649 184.86406,238.7327 183.03105,238.7327 C 181.19804,238.73271 179.64767,239.37975 178.38093,240.67355 z M 181.85761,244.57559 C 181.65573,244.13545 181.35354,243.91525 180.95051,243.91525 C 180.23802,243.91525 179.8819,244.39501 179.8819,245.35404 C 179.8819,246.31328 180.23802,246.79255 180.95051,246.79255 C 181.421,246.79255 181.75705,246.55908 181.95869,246.09111 L 182.94629,246.61701 C 182.47555,247.45339 181.76934,247.87168 180.82763,247.87168 C 180.10136,247.87168 179.51953,247.64899 179.08265,247.20409 C 178.64502,246.7587 178.42684,246.14477 178.42684,245.36206 C 178.42684,244.59313 178.65204,243.98271 179.10271,243.53056 C 179.55338,243.07838 180.11463,242.8524 180.7875,242.8524 C 181.78288,242.8524 182.49561,243.24465 182.92647,244.02835 L 181.85761,244.57559 z M 186.50398,244.57559 C 186.30184,244.13545 186.00567,243.91525 185.61517,243.91525 C 184.88839,243.91525 184.52474,244.39501 184.52474,245.35404 C 184.52474,246.31328 184.88839,246.79255 185.61517,246.79255 C 186.08642,246.79255 186.41644,246.55908 186.6048,246.09111 L 187.61447,246.61701 C 187.14448,247.45339 186.43926,247.87168 185.49931,247.87168 C 184.77403,247.87168 184.19346,247.64899 183.75683,247.20409 C 183.32096,246.7587 183.10254,246.14477 183.10254,245.36206 C 183.10254,244.59313 183.32422,243.98271 183.76737,243.53056 C 184.21026,243.07838 184.77404,242.8524 185.4592,242.8524 C 186.45282,242.8524 187.16455,243.24465 187.5939,244.02835 L 186.50398,244.57559 z\"\n             id=\"path3795\"\n             style=\"opacity:1\" />\n        </g>\n      </g>\n      <path\n         id=\"text3797\"\n         d=\"M 357.4197,448.68503 C 357.66518,448.68504 357.85131,448.63146 357.9781,448.52428 C 358.10488,448.41712 358.16827,448.25905 358.16828,448.05008 C 358.16827,447.84378 358.10488,447.68705 357.9781,447.57988 C 357.85131,447.47004 357.66518,447.41512 357.4197,447.41511 L 356.55784,447.41511 L 356.55784,448.68503 L 357.4197,448.68503 M 357.4723,451.30929 C 357.78522,451.30929 358.0199,451.24364 358.17637,451.11236 C 358.33552,450.98109 358.4151,450.78283 358.4151,450.51759 C 358.4151,450.25771 358.33686,450.06347 358.18041,449.93488 C 358.02396,449.80359 357.78792,449.73796 357.4723,449.73795 L 356.55784,449.73795 L 356.55784,451.30929 L 357.4723,451.30929 M 358.92089,449.15122 C 359.25538,449.24767 359.51434,449.42583 359.69779,449.68571 C 359.88121,449.94559 359.97293,450.26441 359.97294,450.64217 C 359.97293,451.22087 359.776,451.65222 359.38217,451.93621 C 358.98833,452.2202 358.38947,452.36219 357.5856,452.36219 L 355.00001,452.36219 L 355.00001,446.3622 L 357.33878,446.3622 C 358.17771,446.36221 358.78466,446.48813 359.15962,446.73996 C 359.53727,446.99181 359.7261,447.39502 359.7261,447.9496 C 359.7261,448.24164 359.65732,448.4908 359.51975,448.69709 C 359.38217,448.90072 359.18255,449.05209 358.92089,449.15122 M 359.83746,446.3622 L 361.54096,446.3622 L 362.91671,448.50018 L 364.29245,446.3622 L 366,446.3622 L 363.69764,449.8344 L 363.69764,452.36219 L 362.13982,452.36219 L 362.13982,449.8344 L 359.83746,446.3622 M 365.15837,449.40842 L 367.69946,449.40842 L 367.69946,450.57787 L 365.15837,450.57787 L 365.15837,449.40842 M 368.9174,446.3622 L 370.65732,446.3622 L 372.85447,450.47741 L 372.85447,446.3622 L 374.33138,446.3622 L 374.33138,452.36219 L 372.59146,452.36219 L 370.3943,448.24699 L 370.3943,452.36219 L 368.9174,452.36219 L 368.9174,446.3622 M 380.65173,452.03266 C 380.36579,452.18002 380.0677,452.2912 379.75749,452.36622 C 379.44727,452.44123 379.12357,452.47875 378.78638,452.47875 C 377.78019,452.47875 376.98307,452.20011 376.395,451.64284 C 375.80693,451.08289 375.5129,450.32469 375.5129,449.36823 C 375.5129,448.40909 375.80693,447.65089 376.395,447.09361 C 376.98307,446.53367 377.78019,446.2537 378.78638,446.25369 C 379.12357,446.2537 379.44727,446.29121 379.75749,446.36621 C 380.0677,446.44124 380.36579,446.55243 380.65173,446.69977 L 380.65173,447.94157 C 380.36309,447.746 380.0785,447.60266 379.79796,447.51156 C 379.5174,447.42047 379.22203,447.37493 378.91181,447.37493 C 378.35611,447.37493 377.91911,447.55175 377.6008,447.9054 C 377.28249,448.25905 377.12333,448.74666 377.12333,449.36823 C 377.12333,449.98712 377.28249,450.47339 377.6008,450.82703 C 377.91911,451.18069 378.35611,451.35751 378.91181,451.35751 C 379.22203,451.35751 379.5174,451.31197 379.79796,451.22087 C 380.0785,451.12978 380.36309,450.98644 380.65173,450.79086 L 380.65173,452.03266 M 381.82921,449.40842 L 384.3703,449.40842 L 384.3703,450.57787 L 381.82921,450.57787 L 381.82921,449.40842 M 385.58824,446.3622 L 387.32815,446.3622 L 389.52531,450.47741 L 389.52531,446.3622 L 391.00222,446.3622 L 391.00222,452.36219 L 389.26229,452.36219 L 387.06515,448.24699 L 387.06515,452.36219 L 385.58824,452.36219 L 385.58824,446.3622 M 394.08956,447.53165 L 394.08956,451.19274 L 394.64795,451.19274 C 395.28456,451.19274 395.77013,451.03602 396.10462,450.72255 C 396.44181,450.40909 396.61041,449.95363 396.61042,449.35617 C 396.61041,448.7614 396.44317,448.30862 396.10867,447.99783 C 395.77417,447.68705 395.28726,447.53166 394.64795,447.53165 L 394.08956,447.53165 M 392.53172,446.3622 L 394.17453,446.3622 C 395.09169,446.36221 395.77417,446.42784 396.22197,446.55912 C 396.67245,446.68772 397.0582,446.90742 397.37922,447.2182 C 397.66246,447.48879 397.87286,447.80092 398.01044,448.15456 C 398.14801,448.50822 398.2168,448.90875 398.21681,449.35617 C 398.2168,449.80896 398.14801,450.21351 398.01044,450.56983 C 397.87286,450.92349 397.66246,451.23561 397.37922,451.50621 C 397.05551,451.81699 396.66706,452.03802 396.21387,452.1693 C 395.76069,452.29789 395.0809,452.36219 394.17453,452.36219 L 392.53172,452.36219 L 392.53172,446.3622\"\n         style=\"font-size:8.25858784px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:'Bitstream Vera Sans'\" />\n    </g>\n  </g>\n</svg>\n</a>"
+                }
+            ],
+            "type": 1
         }
     ],
     "notes": []
